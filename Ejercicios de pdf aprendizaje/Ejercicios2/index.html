@@ -3,9 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Test en Cypress</title>
+    <title>Acciones en Cypress</title>
 </head>
 <body>
-    <h1>¡Hola mundo!</h1>
+    <form id="user-form">
+ <label for="name">
+ Nombre
+ <input type="text" id="name">
+ <label for="surname">
+ Apellidos
+ <input type="text" id="surname">
+ </label>
+ <br>
+ <label for="email">
+ Correo electrónico
+ <input type="email" id="email">
+ </label>
+ <label for="birthDate">
+ Fecha de nacimiento
+ <input type="date" id="birthDate">
+ </label>
+ <br>
+ <button type="button" onclick="addUser()">Aceptar</button>
+ </form>
+ <p id="message"></p>
+ <script src="./js/main.js"></script>
 </body>
 </html>
