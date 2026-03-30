@@ -5,6 +5,7 @@
     "test": "jest"
   },
   "devDependencies": {
+    "cypress": "^15.13.0",
     "jest": "^29.0.0"
   }
 }

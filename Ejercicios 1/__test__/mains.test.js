@@ -1,4 +1,4 @@
-const { coincidirDni } = require('../main.js');
+const { coincidirDni } = require('../mains.js');
 
 describe('Función de comprobación de DNI', ()=>{
     test('Encuentra usuario por DNI', () => {
